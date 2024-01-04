@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>컵넛</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+<body onscroll="headerbarToggle()">
+
+    <div class="wrap">
+
+        <header>
+
+            <div class="in_header" id="in_header_c">
+                <div class="h_inner">
+                    <div class="h_left">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo11.svg" alt="logo_color"></a>
+                        </div>
+        
+                        <ul class="gnb">
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="#">STORE</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="h_right">
+                        <div class="insta">
+                            <a href="#"><img src="img/ins.svg" alt="insta_color"></a>
+                        </div>
+    
+                        <div class="ham" id="ham_c">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+
+            <div class="in_header" id="in_header_w">
+                <div class="h_inner">
+                    <div class="h_left">
+                        <div class="logo">
+                            <a href="#"><img src="img/logo_w.svg" alt="logo_w"></a>
+                        </div>
+        
+                        <ul class="gnb" id="gnb_w">
+                            <li><a href="#">MENU</a></li>
+                            <li><a href="#">STORE</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="h_right">
+                        <div class="insta">
+                            <a href="#"><img src="img/insta_w.png" alt="insta_w"></a>
+                        </div>
+    
+                        <div class="ham">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="section_1">
+
+                <div class="s1_video">
+                    <video src="img/Y2meta.app-cupnut-(1080p60).mp4" autoplay muted loop></video>
+                </div>
+
+                <div class="s1_tit">
+                    <div>"BE HAPPY
+                        <br class="s1_br"/>
+                        DONUT WORRY"
+                    </div>
+                </div>
+    
+            </div>
+            <!-- section_1 end -->
+
+        </header>
+        <!-- header end -->
+
+        <section class="section_2">
+
+            <div class="s_tit s2_tit">
+                CUPNUT Menu
+            </div>
+
+            <input type="radio" id="s2_tab_1" name="s2_tab" checked/>
+            <input type="radio" id="s2_tab_2" name="s2_tab"/>
+            <input type="radio" id="s2_tab_3" name="s2_tab"/>
+            <input type="radio" id="s2_tab_4" name="s2_tab"/>
+            <input type="radio" id="s2_tab_5" name="s2_tab"/>
+            <input type="radio" id="s2_tab_6" name="s2_tab"/>
+            <input type="radio" id="s2_tab_7" name="s2_tab"/>
+
+            <div class="label_wrap">
+                <div class="label_dessert">
+                    <label for="s2_tab_1" id="s2_lab_1">Signature</label>
+                    <label for="s2_tab_2" id="s2_lab_2">Donut</label>
+                    <label for="s2_tab_3" id="s2_lab_3">Cronut Twisted</label>
+                </div>
+                <div class="label_beverage">
+                    <label for="s2_tab_4" id="s2_lab_4">Coffee</label>
+                    <label for="s2_tab_5" id="s2_lab_5">Ade</label>
+                    <label for="s2_tab_6" id="s2_lab_6">Tea</label>
+                    <label for="s2_tab_7" id="s2_lab_7">Milk</label>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_sig">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_creambrulee.jpg" alt="creambrulee">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CREAM BRULEE DONUT</p>
+                                <span>크림브륄레 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_lotus.jpg" alt="lotus">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>LOTUS DONUT</p>
+                                <span>로투스 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_injeolmi.jpg" alt="injeolmi">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>INJEOLMI DONUT</p>
+                                <span>인절미 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_nutella.jpg" alt="nutella">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>NUTELLA DONUT</p>
+                                <span>누텔라 도넛</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_do">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_injeolmi.jpg" alt="injeolmi">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>INJEOLMI DONUT</p>
+                                <span>인절미 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_sweetpotato.jpg" alt="sweetpotato">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>SWEET POTATO DONUT</p>
+                                <span>고구마 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_strawberry.jpg" alt="strawberry">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>STRAWBERRY DONUT</p>
+                                <span>딸기 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_nutella.jpg" alt="nutella">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>NUTELLA DONUT</p>
+                                <span>누텔라 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_creambrulee.jpg" alt="creambrulee">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CREAM BRULEE DONUT</p>
+                                <span>크림브륄레 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_matcha.jpg" alt="matcha">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>MATCHA DONUT</p>
+                                <span>말차 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_cinnamon.jpg" alt="cinnamon">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CINNAMON DONUT</p>
+                                <span>시나몬 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_lotus.jpg" alt="lotus">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>LOTUS DONUT</p>
+                                <span>로투스 도넛</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/do_vanilla.jpg" alt="vanilla">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>VANILLA CREAM DONUT</p>
+                                <span>바닐라 크림 도넛</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_cro">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/cro_salted.jpg" alt="cro_salted">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>SALTED CARAMEL</p>
+                                <span>솔티드카라멜</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/cro_cinnamon.jpg" alt="cro_cinnamon">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CINNAMON</p>
+                                <span>시나몬</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/cro_creambrulee.jpg" alt="cro_creambrulee">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CREAM BRULEE</p>
+                                <span>크림브륄레</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_cof">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/co_americano.jpg" alt="co_americano">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>AMERICANO <span>HOT/ICE</span></p>
+                                <span>아메리카노</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/co_latte.jpg" alt="co_latte">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>LATTE <span>HOT/ICE</span></p>
+                                <span>라떼</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/co_vanillalatte.jpg" alt="vanillalatte">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>VANILLA LATTE <span>HOT/ICE</span></p>
+                                <span>바닐라 라떼</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/co_injeolmilatte.png" alt="injeolmilatte">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>INJEOLMI LATTE <span>ICED ONLY</span></p>
+                                <span>인절미 라떼</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_ade">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/ade_fashion.jpg" alt="ade_fashion">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>FASHION FRUITS ADE <span>ICED ONLY</span></p>
+                                <span>패션후르츠 에이드</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/ade_green.jpg" alt="ade_green">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>GREEN GRAPE ADE <span>ICED ONLY</span></p>
+                                <span>청포도 에이드</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/ade_lemon.jpg" alt="ade_lemon">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>LEMON ADE <span>ICED ONLY</span></p>
+                                <span>레몬 에이드</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/ade_grape.jpg" alt="ade_grape">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>GRAPE FRUIT ADE <span>ICED ONLY</span></p>
+                                <span>자몽 에이드</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_tea">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_lemon.jpg" alt="tea_lemon">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>LEMON ICE TEA <span>ICED ONLY</span></p>
+                                <span>레몬 아이스티</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_peach.jpg" alt="tea_peach">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>PEACH ICE TEA <span>ICED ONLY</span></p>
+                                <span>복숭아 아이스티</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_rooibos.jpg" alt="tea_rooibos">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>ROOIBOS VANILLA <span>HOT/ICE</span></p>
+                                <span>루이보스 바닐라</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_jasmine.jpg" alt="tea_jasmine">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>GREEN JASMINE <span>HOT/ICE</span></p>
+                                <span>그린 자스민</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_indian.jpg" alt="tea_indian">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>INDIAN CHAI <span>HOT/ICE</span></p>
+                                <span>인디안 차이</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_cool.jpg" alt="tea_cool">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>COOL HERVAL <span>HOT/ICE</span></p>
+                                <span>쿨 허벌</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/tea_white.jpg" alt="tea_white">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>WHITE TEMPLE <span>HOT/ICE</span></p>
+                                <span>화이트 템플</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+            <div class="s2_con_wrap s2_mi">
+                <div class="swiper mySwiper first">
+                    <div class="s2_container swiper-wrapper">
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/milk_milk.jpg" alt="milk_milk">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>MILK TEA <span>ICED ONLY</span></p>
+                                <span>밀크티</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/milk_matcha.jpg" alt="milk_matcha">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>MATCHA MILK <span>ICED ONLY</span></p>
+                                <span>말차 밀크</span>
+                            </div>
+                        </div>
+                        <div class="s2_con swiper-slide">
+                            <div class="s2_img">
+                                <img src="img/milk_choco.jpg" alt="milk_choco">
+                            </div>
+                            <div class="s2_con_tit">
+                                <p>CHOCO MILK <span>ICED ONLY</span></p>
+                                <span>초코 밀크</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+
+        </section>
+        <!-- section_2 end -->
+
+        <section class="section_3">
+
+            <div class="s_tit s3_tit">ABOUT</div>
+            <div class="con_tit s3_con_tit">
+                자극적이거나 화려하진 않지만
+                <br/>
+                시간이 지나도 꾸준히 생각나는 도넛이길 바랍니다.
+            </div>
+
+            <div class="s3_logo">
+                <img src="img/bg_logo.png" alt="s3_logo">
+            </div>
+
+            <ul class="s3_gnb">
+                <li>
+                    <div class="s3_img">
+                        <img class="pc_img" src="img/dessert.png" alt="dessert">
+                    </div>
+                    <div class="s3_sub">
+                        <p>DESSERT</p>
+                    </div>
+                    <div class="s3_btn">
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="s3_img">
+                        <img class="pc_img" src="img/beverage.jpg" alt="beverage">
+                    </div>
+                    <div class="s3_sub">
+                        <p>BEVERAGE</p>
+                    </div>
+                    <div class="s3_btn">
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </li>
+                <li>
+                    <div class="s3_img">
+                        <img class="pc_img" src="img/interior_1.jpg" alt="interior">
+                    </div>
+                    <div class="s3_sub">
+                        <p>INTERIOR</p>
+                    </div>
+                    <div class="s3_btn">
+                        <p><a href="#">View More</a></p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="s3_mo_btn">
+                <p><a href="#">View More</a></p>
+            </div>
+
+        </section>
+        <!-- section_3 end -->
+
+        <section class="section_4">
+
+            <div class="s4_container swiper mySwiper second">
+                <div class="swiper-wrapper">
+
+                    <div class="s4_wrap s4_bu swiper-slide">
+                        <div class="in_wrap">
+                            <div class="in_cont">
+                                <div class="in_1">
+                                    <img src="img/bu_1.jpg" alt="bu_1">
+                                </div>
+                                <div class="in_2">
+                                    <img src="img/bu_2.jpg" alt="bu_2">
+                                </div>
+                            </div>
+                            <div class="s4_txt">
+                                <div class="s_tit s4_tit">Store</div>
+                                <div class="s4_add">
+                                    <span class="s4_span1">주택상가형</span>
+                                    <p>부산 영도점</p>
+                                    <span class="s4_span2">부산 영도구 절영로 222</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="s4_wrap s4_pa swiper-slide">
+                        <div class="in_wrap">
+                            <div class="in_cont">
+                                <div class="in_1">
+                                    <img src="img/pa_1.jpg" alt="pa_1">
+                                </div>
+                                <div class="in_2">
+                                    <img src="img/pa_2.jpg" alt="pa_2">
+                                </div>
+                            </div>
+                            <div class="s4_txt">
+                                <div class="s_tit s4_tit">Store</div>
+                                <div class="s4_add">
+                                    <span class="s4_span1">일반상가형</span>
+                                    <p>파주 해오름마을점</p>
+                                    <span class="s4_span2">경기 파주시 해올1길 7 1층 101호</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="s4_wrap s4_kyung swiper-slide">
+                        <div class="in_wrap">
+                            <div class="in_cont">
+                                <div class="in_1">
+                                    <img src="img/kyung_1.jpg" alt="kyung_1">
+                                </div>
+                                <div class="in_2">
+                                    <img src="img/kyung_2.jpg" alt="kyung_2">
+                                </div>
+                            </div>
+                            <div class="s4_txt">
+                                <div class="s_tit s4_tit">Store</div>
+                                <div class="s4_add">
+                                    <span class="s4_span1">주택상가형</span>
+                                    <p>경주 황성점</p>
+                                    <span class="s4_span2">경북 경주시 놋전1길 23 카페 Cupnut</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="s4_wrap s4_chang swiper-slide">
+                        <div class="in_wrap">
+                            <div class="in_cont">
+                                <div class="in_1">
+                                    <img src="img/chang_1.jpg" alt="chang_1">
+                                </div>
+                                <div class="in_2">
+                                    <img src="img/chang_2.jpg" alt="chang_2">
+                                </div>
+                            </div>
+                            <div class="s4_txt">
+                                <div class="s_tit s4_tit">Store</div>
+                                <div class="s4_add">
+                                    <span class="s4_span1">주택상가형</span>
+                                    <p>창원 가로수점</p>
+                                    <span class="s4_span2">경남 창원시 성산수 용지로239번길 24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="s4_wrap s4_kim swiper-slide">
+                        <div class="in_wrap">
+                            <div class="in_cont">
+                                <div class="in_1">
+                                    <img src="img/kim_1.jpg" alt="kim_1">
+                                </div>
+                                <div class="in_2">
+                                    <img src="img/kim_2.jpg" alt="kim_2">
+                                </div>
+                            </div>
+                            <div class="s4_txt">
+                                <div class="s_tit s4_tit">Store</div>
+                                <div class="s4_add">
+                                    <span class="s4_span1">일반상가형</span>
+                                    <p>김해 삼계점</p>
+                                    <span class="s4_span2">경남 김해시 삼계중앙로 40 1층</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="s4_btn">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+
+            <div class="s4_bg"></div>
+
+        </section>
+        <!-- section_4 end -->
+
+        <section class="section_5">
+
+            <div class="s_tit s5_tit">Franchise</div>
+
+            <div class="con_tit s5_con_tit">
+                컵넛은 진입장벽이 높고 단단한 매출을 보여주는 수제 도넛을 기반으로
+                <br/>
+                저가형 카페부터 트렌디한 개인카페까지 경쟁이 가능합니다. 
+            </div>
+
+            <div class="s5_btn">
+                <a href="#">가맹 문의하기</a>
+            </div>
+
+        </section>
+        <!-- section_5 end -->
+
+        <footer>
+
+            <div class="f_top">
+                <div class="f_pc_left">
+                    <div class="f_logo">
+                        <img src="img/logo11.svg" alt="logo">
+                    </div>
+                    <div class="about">
+                        <div class="f_tit">ABOUT US</div>
+                        <ul class="f_gnb">
+                            <li><span>대표</span>박근민</li>
+                            <li><span>사업자 등록번호</span>340-03-02455</li>
+                            <li><span>본사</span>부산 금정구 금정로 149번안길 18</li>
+                            <li><span>개인정보관리책임자</span>컵넛(cupnut.kr@gmail.com)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="f_right">
+                    <div class="fr_t">
+                        <div class="about_mo">
+                            <div class="f_tit">ABOUT US</div>
+                            <ul class="f_gnb">
+                                <li><span>대표</span>박근민</li>
+                                <li><span>사업자 등록번호</span>340-03-02455</li>
+                                <li><span>본사</span>부산 금정구 금정로 149번안길 18</li>
+                                <li><span>개인정보관리책임자</span>컵넛(cupnut.kr@gmail.com)</li>
+                            </ul>
+                        </div>
+    
+                        <div class="contact">
+                            <div class="f_tit">CONTACT</div>
+                            <div class="tel">1577-7381</div>
+                            <ul class="f_gnb">
+                                <li><span>FAX</span>051-518-1541</li>
+                                <li><span>E-MAIL</span>cupnut.kr@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="f_bottom">
+                <div class="fam">
+                    <div>개인정보처리방침</div>
+                    <div>서비스이용약관</div>
+                </div>
+                <div class="copy">Copyright © cupnut.kr. All Rights Reserved</div>
+            </div>
+
+
+
+        </footer>
+        <!-- footer end -->
+
+        <div class="pop_pc">
+            <div class="top_btn"><a href="#">TOP</a></div>
+            <div class="line"></div>
+            <div class="loca">
+                <a href="#">
+                    <div class="pop_img">
+                        <img src="img/location-dot-solid.png" alt="location">
+                    </div>
+                    <div class="pop_tit">위치찾기</div>
+                </a>
+            </div>
+            <div class="stor">
+                <a href="#">
+                    <div class="pop_img">
+                        <img src="img/store-solid.png" alt="store">
+                    </div>
+                    <div class="pop_tit">가맹문의</div>
+                </a>
+            </div>
+            <div class="pop_tel">
+                1577-
+                <br/>
+                7381
+            </div>
+        </div>
+
+        <div class="top_mo">
+            <a href="#">TOP</a>
+        </div>
+        <div class="pop_mo">
+            <div class="p_left_mo">
+                <div class="loca_mo">
+                    <a href="#">
+                        <div class="pop_img">
+                            <img src="img/location-dot-solid.png" alt="location">
+                        </div>
+                        <div class="pop_tit">위치찾기</div>
+                    </a>
+                </div>
+                <div class="stor_mo">
+                    <a href="#">
+                        <div class="pop_img">
+                            <img src="img/store-solid.png" alt="store">
+                        </div>
+                        <div class="pop_tit">가맹문의</div>
+                    </a>
+                </div>
+            </div>
+           
+            <div class="pop_tel_mo">
+                1577-7381
+            </div>
+        </div>
+
+        <!-- 고정 end -->
+
+    </div>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".first", {
+        slidesPerView: 2,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+                499: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+                },
+                1279: {
+                slidesPerView: 3,
+                spaceBetween: 85,
+                },
+            },
+        });
+
+        var swiper = new Swiper(".second", {
+        loop: true,
+        spaceBetween: 40,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        });
+
+    </script>
+    
+</body>
+</html>
